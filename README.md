@@ -66,6 +66,7 @@ npm -v
 ```
 
 <h3 id="2.2">2.2 Install Freeboard</h3>
+
 ```linux
 git clone https://github.com/maydaymiao/freeboard.git
 cd freeboard
