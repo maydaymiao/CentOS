@@ -65,3 +65,15 @@ node -v
 npm -v
 ```
 
+<h3 id="2.2">2.2 Install Freeboard</h3>
+```linux
+git clone https://github.com/maydaymiao/freeboard.git
+cd freeboard
+sudo npm -g install grunt
+sudo npm install -g grunt-cli
+npm install
+grunt
+sudo -s
+cd /var/www/html
+ln -s /home/maydaymiao/freeboard dashboard
+```
